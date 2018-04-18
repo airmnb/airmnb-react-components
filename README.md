@@ -3,13 +3,13 @@ Building UI component libaray,borrowing some of the concepts from Brad Frost’s
 
 Our library will consist of atoms and molecules. This will allow us to quickly build our organisms, templates, and pages. in the dependant projects.
 
-##Atoms -> Elements
+## Atoms -> Elements
 Atoms are basically the smallest indivisible bits of UI. Think of buttons, links, inputs, etc, we’ll call them “elements".
 
-##Molecules -> Components
+## Molecules -> Components
 Molecules are simple and distinct combinations of atoms. Going forward we’ll call these “components”. The word “component” is very natural for the React world, but we’ll be using it in a specific way. An example would be a search field, which is a combination of a label, an input, and a button. Another example would be a dropdown list, which consists of a button (to toggle the dropdown) a list, and list items.
 
-##Getting Started
+## Getting Started
 To setup the project in you local machine:
 ```
 git clone https://github.com/airmnb/airmnb-react-components.git
@@ -18,7 +18,7 @@ npm i
 ```
 Run `npm link` to create a symlink of our library locally, and run `npm link airmnb-react-components` in all dependant projects to tell them that we want to use that symlinked library.
 
-##Development
+## Development
 1. run `npm run build` to build the project.
 2. run `npm run build:watch` to watch the project and rebuild the project.
 3. run `npm run lint` to validate the code.
