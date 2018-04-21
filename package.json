@@ -1,6 +1,6 @@
 {
 	"name": "airmnb-react-components",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "UI react components for web/mobile projects",
 	"main": "build/index.js",
 	"scripts": {
